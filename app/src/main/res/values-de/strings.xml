@@ -38,7 +38,7 @@
     <string name="ringtone_set_failed">Klingelton konnte nicht gespeichert werden</string>
     <!-- Toasts after adding song(s) to playlists -->
     <plurals name="NNNtrackstoplaylist">
-        <item quantity="one">1 Titel zur Playlist hinzugefügt</item>
+        <item quantity="one">Ein Titel zur Playlist hinzugefügt.</item>
         <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> Titel wurden zur Playlist hinzugefügt.</item>
     </plurals>
     <!-- Toast after selecting an empty playlist -->
@@ -52,7 +52,7 @@
     <!-- Toast confirming that song(s) was/were deleted. -->
     <!-- -->
     <plurals name="NNNtrackstoqueue">
-        <item quantity="one">1 Titel in die Warteschlange aufgenommen.</item>
+        <item quantity="one">Ein Titel in die Warteschlange aufgenommen.</item>
         <item quantity="other">"\""<xliff:g example="27" id="number">%d</xliff:g>\" Titel in die Warteschlange aufgenommen.\"
 		"</item>
     </plurals>
@@ -74,7 +74,7 @@
     <!-- Option to share audio file -->
     <string name="share_option_audio_file">Die Audiodatei</string>
     <!-- Displays when you need to choose which app to share the song with -->
-    <string name="share_via">Titel teilen über:</string>
+    <string name="share_via">Titel teilen mit:</string>
     <!-- Displayed when an M3U playlist is being saved-->
     <string name="saving_playlist">Speichere Playlist</string>
     <!-- Displayed when whitelisting a folder, as the app gathers the songs-->
@@ -119,11 +119,11 @@
     <!-- Delete confirmation dialog message when deleting albums -->
     <string name="get_pro_button_play_store">Play Store</string>
     <string name="get_pro_button_amazon">Amazon</string>
-    <string name="delete_album_desc_multiple">Alle Titel der folgenden Alben:<xliff:g id="album">%s</xliff:g>werden endgültig gelöscht.</string>
+    <string name="delete_album_desc_multiple">Alle Titel der folgenden Alben: <xliff:g id="album">%s</xliff:g> werden endgültig gelöscht.</string>
     <!-- Delete confirmation dialog when deleting a single song -->
     <string name="delete_song_desc"><xliff:g id="song">%s</xliff:g> wird endgültig gelöscht.</string>
     <!-- Delete confirmation dialog message title when deleting songs -->
-    <string name="delete_song_desc_multiple">Die folgenden Titel:<xliff:g id="song">%s</xliff:g>werden endgültig gelöscht.</string>
+    <string name="delete_song_desc_multiple">Die folgenden Titel: <xliff:g id="song">%s</xliff:g> werden endgültig gelöscht.</string>
     <!-- Toast shown when songs are successfully deleted -->
     <string name="delete_songs_success_toast"><xliff:g id="number">%d</xliff:g> Titel gelöscht.</string>
     <!-- Toast shown when failing to delete songs-->
@@ -296,7 +296,7 @@
     <!-- Settings title for ignore folder artwork checkbox (whether the app can use local artwork for the album art -->
     <string name="pref_title_prefer_lastfm">Last.fm Bildmaterial bevorzugen</string>
     <!-- Settings summary for the embedded artwork checkbox-->
-    <string name="pref_summary_prefer_lastfm">Auswählen um Shuttle bevorzugt auf Last.fm nach Bildern suchen zu lassen -  erst danach wird auf iTunes Servern gesucht. (nur Album Bilder)</string>
+    <string name="pref_summary_prefer_lastfm">Auswählen um Shuttle bevorzugt auf Last.fm nach Bildern suchen zu lassen - erst danach wird auf iTunes Servern gesucht. (nur Album Bilder)</string>
     <!-- Settings title for Artwork settings heading -->
     <string name="pref_string_title_artwork">Bilder</string>
     <!-- Settings title for the download artwork button -->
@@ -448,9 +448,9 @@
     <string name="save">Speichern</string>
     <!-- Message displayed when tag editing fails -->
     <string name="tag_error">Fehler beim Bearbeiten der Tags. Falls die Datei auf einer SD-Karte gespeichert ist, hat Shuttle eventuell nicht die nötigen Zugriffsberechtigungen.</string>
-    <string name="tag_editor_document_tree_message">Wegen Änderungen in Android 5.0 muss angegeben werden, welche Dateien auf der SD-Karte bearbeitet werden dürfen.\n\nWähle den Überordner aus, in dem die Dateien bearbeitet werden dürfen.</string>
+    <string name="tag_editor_document_tree_message">Wegen Änderungen in Android 5.0 (Lollipop) muss angegeben werden, welche Dateien auf der SD-Karte bearbeitet werden dürfen.\n\nWähle den Überordner aus, in dem die Dateien bearbeitet werden dürfen.</string>
     <string name="tag_editor_check_permission">Rechte werden überprüft. Es könnte einen Moment dauern...\n\nGoogle ist schuld!</string>
-    <string name="tag_editor_document_tree_permission_failed">Shuttle hat immer noch keine Rechte zum Bearbeiten von Dateien. Überprüfe das Verzeichnis im Explorer.</string>
+    <string name="tag_editor_document_tree_permission_failed">Shuttle hat immer noch keine Rechte zum Bearbeiten von Dateien. Überprüfe das Verzeichnis im Datei-Explorer.</string>
     <string name="tag_retrieve_error">Fehler beim Lesen der Tags.</string>
     <!-- ## Folder browsing ## -->
     <!-- -->
@@ -466,7 +466,7 @@
     <plurals name="Nfolders">
         <item quantity="other"><xliff:g id="count">%d</xliff:g>
 Ordner</item>
-        <item quantity="one"></item>
+        <item quantity="one">Ein Ordner</item>
     </plurals>
     <!-- -->
     <string name="parent_folder">Übergeordneter Ordner</string>
@@ -542,7 +542,7 @@ Ordner</item>
     <!-- -->
     <string name="empty_songlist">Keine Songs erkannt. Kopiere ein paar Songs auf das Gerät.</string>
     <!-- -->
-    <string name="empty_suggested">Spiele mehr Musik und Empfehlungen werden hier erscheinen.</string>
+    <string name="empty_suggested">Spiele mehr Musik ab und es werden hier Empfehlungen erscheinen.</string>
     <string name="empty_search">Keine Suchergebnisse vorhanden</string>
     <!-- ## Sort options ## -->
     <string name="sorting">Sortierung</string>
